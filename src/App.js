@@ -2,7 +2,7 @@ import "./App.css";
 import Tours from "./Component/Tours";
 import React, { useState, useEffect } from "react";
 
-const url = "https://course-api.com/react-tours-project";
+const url = "https://www.course-api.com/react-tours-project";
 function App() {
   // states for loading and tour rendering
   const [tours, setTours] = useState([]);
